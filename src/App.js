@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Fragment } from 'react'
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import Uploader from './im-uploader/Uploader'
+import KGallery from './klab-staff/gallery/KGallery'
+import Home from './klab-staff/homek/Home'
+import Listing from './klab-staff/listK/Listing'
+import NavbarKlb from './klab-staff/menu/NavbarKlb'
+import Register from './klab-staff/registration-form/Register'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //  <Router>
+  //   <Routes>
+  //     <Route path='/' element={<NavbarKlb />}>
+  //     <Route index element={<Home />}/>
+  //     <Route path='/add-new' element={<Register />}/>
+  //     <Route path="/list" element={<Listing />} />
+  //     <Route path='/gallery' element={<KGallery />}/>
+
+
+  //     </Route>
+  //   </Routes>
+  //  </Router>
+
+  <Fragment>
+    <Uploader/>
+  </Fragment>
+    )
 }
 
-export default App;
+export default App

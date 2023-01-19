@@ -1,0 +1,11 @@
+button,img{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+}

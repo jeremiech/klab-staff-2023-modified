@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "val": {
+        "full": "Dany Gusenga",
+        "dob": "2022-12-27",
+        "sx": "M",
+        "email": "gusenga@gmail.com"
+      },
+      "id": 1
+    },
+    {
+      "val": {
+        "full": "Mugema Ange",
+        "dob": "2022-12-27",
+        "sx": "M",
+        "email": "mugem@gmail.com"
+      },
+      "id": 2
+    }
+  ]
+}

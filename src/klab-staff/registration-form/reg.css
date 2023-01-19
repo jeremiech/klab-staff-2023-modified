@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:250px ;
+    max-width: 250;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+}
+
+.container .head{
+    text-align: center;
+    padding: 8px 16px;
+}
+.head p{
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.container .input-continer {
+    display: -ms-flexbox;
+    display: flex;
+    width:100%;
+    margin-bottom: 16px;
+
+}
+
+.input-continer .icon{
+    text-align: center;
+    padding: 10px;
+    width: 15%;
+    background-color: dodgerblue;
+    height: 30px;
+}
+
+.input-continer .posit{
+    width: 20px;
+}
+
+.input-continer .input-form{
+    padding: 5px;
+    width: 85%;
+    
+    height: 30px;
+    outline: none;
+    border:  .3px grey solid;
+
+    margin-left: 0;
+    border-left: none;
+
+}
+.input-continer:focus .input-form{
+    border: 1px dodgerblue solid ;
+}
+
+
+
+.container .input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-button .btn{
+    padding: 8px 16px;
+    text-align: center;
+    border:none;
+    background: dodgerblue;
+    color: white;
+    width: 100%;
+}
+.input-button:hover .btn{
+    cursor: pointer;
+    opacity: 1;
+}
